@@ -1,0 +1,17 @@
+{
+  "name": "elliottsmith_markov",
+  "version": "1.0.0",
+  "description": "Remember when we'd all post sad Facebook statuses with lyrics from our favorite songs? This twitter bot creates Elliott Smith lyric snippets using Markov chains.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0",
+    "twitter": "^1.7.0"
+  }
+}
