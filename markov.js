@@ -22,7 +22,7 @@ const removeDupsFromStr = (lyrics) => {
   return lyrics;
 }
 
-lyrics = removeDupsFromStr(lyrics)
+//lyrics = removeDupsFromStr(lyrics)
 
 lyrics = _.uniq(lyrics)
 
