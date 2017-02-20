@@ -34,7 +34,7 @@ let initialResult = markov.generateSentenceSync();
 
 //recursively generate until you get something better
 const generator = (result) => {
-  if (result.score > 8 && result.scorePerWord > 1 ) {
+  if (result.score > 8 && result.scorePerWord > 1 && lyrics.indexOf(result.string) === -1) {
     let string = result.string
     return string;
   } else {
