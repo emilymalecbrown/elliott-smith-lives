@@ -1,9 +1,11 @@
 const twitterPackage = require('twitter');
 const keys = require('./keys');
+const findLyrics = require('./markov').generator;
+const initial = require('./markov').initialResult;
 
 const Twitter = new twitterPackage(keys);
 
-Twitter.post('statuses/update', {status: 'We\'re working'},  function(error, tweet, response){
+Twitter.post('statuses/update', {status: findLyrics(initial)},  function(error, tweet, response){
   if(error){
     console.log(error);
   }
