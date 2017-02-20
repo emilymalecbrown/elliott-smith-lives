@@ -4,7 +4,7 @@
   "description": "Remember when we'd all post sad Facebook statuses with lyrics from our favorite songs? This twitter bot creates Elliott Smith lyric snippets using Markov chains.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm install && node index.js"
   },
   "author": "",
   "license": "ISC",
